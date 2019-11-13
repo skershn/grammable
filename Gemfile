@@ -66,6 +66,9 @@ group :development, :test do
   gem "factory_bot_rails"
 end
 
+gem "figaro"
 gem 'bootstrap', '~> 4.3.1'
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
+gem "fog-aws"
